@@ -4,7 +4,7 @@ Step Issuer is a cert-manager issuer that integrates with Step Certificates to p
 
 **📌 CleanStart Foundation:** Security-hardened, minimal base OS designed for enterprise containerized environments.
 
-**Image Path:** `cleanstart/step-issuer`
+**Image Path:** `ghcr.io/cleanstart-containers/step-issuer`
 
 **Registry:** CleanStart Registry
 
@@ -28,7 +28,7 @@ CleanStart images are built on secure, minimal base operating systems and optimi
 
 ## Image Details
 
-**Image:** `cleanstart/step-issuer:latest-dev`
+**Image:** `ghcr.io/cleanstart-containers/step-issuer:latest-dev`
 
 **Key Specifications:**
 - **Binary Location:** `manager`
@@ -76,14 +76,14 @@ Typical scenarios where this container excels:
 
 Download the runtime container images:
 ```bash
-docker pull cleanstart/step-issuer:latest-dev
+docker pull ghcr.io/cleanstart-containers/step-issuer:latest-dev
 ```
 
 ### Run Commands
 
 Basic test:
 ```bash
-docker run -it --name step-issuer-test cleanstart/step-issuer:latest-dev
+docker run -it --name step-issuer-test ghcr.io/cleanstart-containers/step-issuer:latest-dev
 ```
 
 Production deployment:
@@ -92,7 +92,7 @@ docker run -d --name step-issuer-prod \
   --read-only \
   --security-opt=no-new-privileges \
   --user 1000:1000 \
-  cleanstart/step-issuer:latest
+  ghcr.io/cleanstart-containers/step-issuer:latest
 ```
 
 ---
@@ -162,8 +162,8 @@ CleanStart images support multiple architectures to ensure compatibility across 
 
 ### Multi-Platform Images
 ```bash
-docker pull --platform linux/amd64 cleanstart/step-issuer:latest-dev
-docker pull --platform linux/arm64 cleanstart/step-issuer:latest-dev
+docker pull --platform linux/amd64 ghcr.io/cleanstart-containers/step-issuer:latest-dev
+docker pull --platform linux/arm64 ghcr.io/cleanstart-containers/step-issuer:latest-dev
 ```
 
 ---
