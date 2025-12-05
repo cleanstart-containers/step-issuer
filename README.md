@@ -76,6 +76,7 @@ Typical scenarios where this container excels:
 
 Download the runtime container images:
 ```bash
+docker pull ghcr.io/cleanstart-containers/step-issuer:latest
 docker pull ghcr.io/cleanstart-containers/step-issuer:latest-dev
 ```
 
