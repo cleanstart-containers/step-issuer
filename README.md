@@ -187,7 +187,7 @@ The container runs with multiple security enhancements:
 - **Step Certificates Documentation:** https://smallstep.com/docs/step-ca/
 - **Provenance / SBOM / Signature:** https://images.cleanstart.com/images/step-issuer
 - **Docker Hub:** https://hub.docker.com/r/cleanstart/step-issuer
-- **CleanStart All Images:** https://images.cleanstart.com
+- **CleanStart All Images:** https://images.cleanstart.com/images/step-issuer/details
 - **CleanStart Community Images:** https://hub.docker.com/u/cleanstart
 
 
